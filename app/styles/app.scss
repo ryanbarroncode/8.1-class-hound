@@ -1,0 +1,35 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.centertext{
+text-align: center;
+}
+.gsdlogo{
+  max-width: 100%;
+  height: inherit;
+  margin-top: -15px;
+}
+
+.green{
+  color: lightgreen;
+}
+
+.sizebar{
+  width: 50px;
+  display: inline-block;
+}
